@@ -3,7 +3,7 @@
 }
 
 .rgb{
-  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,33,66,1) 62%);
+  background: #5a9e39;
   height: 3rem;
   clip-path: polygon(0% 90%, 100% 0%, 100% 50%, 0% 100%);
 }
@@ -23,19 +23,19 @@
 }
 
 .rgbb{
-  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,33,66,1) 62%);
+  background: #5a9e39;
   height: 10rem;
   clip-path: polygon(0% 90%, 100% 0%, 100% 50%, 0% 100%);
 }
 
 .rgbbe{
-  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,33,66,1) 62%);
+  background: #5a9e39;
   height: 5rem;
   clip-path: polygon(0% 90%, 100% 0%, 100% 50%, 0% 100%);
 }
 
 .teste {
-  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,33,66,1) 62%);
+  background: #5a9e39;
   height: 10rem;
   clip-path: polygon(0% 90%, 100% 0%, 100% 50%, 100% 100%);
 }

@@ -25,6 +25,7 @@
 }
 
 .container h1 {
+    color: #7b4640;
     font-size: 8rem;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }

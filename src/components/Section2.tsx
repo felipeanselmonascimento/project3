@@ -1,6 +1,6 @@
 // import section22 from '../assets/darkforest.jpg'
 import styles from './Section2.module.css'
-import dedao from '../assets/shepa.png'
+import dedao from '../assets/Subject (2).png'
 import AOS from 'aos'
 import { useEffect, useState } from 'react'
 import 'aos/dist/aos.css'
@@ -12,7 +12,7 @@ export function Section2() {
 
     const handleCopyClick = () => {
       // Texto que você deseja copiar
-      const textToCopy = '0xC0BE7661Eb91665894CD3B7d10fa67F2F00B0203';
+      const textToCopy = '0xE5Fa35e9bCf6D235721554b9F2f3E03f5fd7e42F';
   
       // Copia o texto para a área de transferência
       navigator.clipboard.writeText(textToCopy)
@@ -47,9 +47,9 @@ export function Section2() {
                 />
                 {isCopied && <p className={styles.text}>CONTRACT COPIED 💸🚀!</p>}
                 <div className={styles.divsec}>
-                    <h1>Shaun the Sheep!</h1>
-                    <p>Shaun the Sheep is the cryptocurrency of the future, driving the financial revolution with cutting-edge technology. Enjoy fast, efficient, and secure transactions. Our community-driven governance, focus on financial inclusion, and advanced smart contracts make Shaun the Sheep the choice for a more connected world. Discover the power of innovation - acquire Shaun the Sheep now! 💸🚀🌐</p>
-                    <button onClick={handleCopyClick} role="button">CONTRACT:0xC0BE7661Eb91665894CD3B7d10fa67F2F00B0203
+                    <h1>Baby BEBE!</h1>
+                    <p>Baby BEBE is the cryptocurrency of the future, driving the financial revolution with cutting-edge technology. Enjoy fast, efficient, and secure transactions. Our community-driven governance, focus on financial inclusion, and advanced smart contracts make Baby BEBE the choice for a more connected world. Discover the power of innovation - acquire Baby BEBE now! 💸🚀🌐</p>
+                    <button onClick={handleCopyClick} role="button">CONTRACT:0xE5Fa35e9bCf6D235721554b9F2f3E03f5fd7e42F
                     <Copy size={15} /></button>
                 </div>
             </div>

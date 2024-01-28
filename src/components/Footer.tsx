@@ -18,16 +18,16 @@ export function Footer () {
             <img src={img5} alt="bsc" />
           </div>
           <div className={styles.fim}>
-            <h1>JOIN THE Shaun the Sheep COMMUNITY NOW AND LET THE JOURNEY BEGIN!</h1>
+            <h1>JOIN THE Baby BEBE COMMUNITY NOW AND LET THE JOURNEY BEGIN!</h1>
             <div className={styles.images2}>
-                <a href="https://x.com/ShaunBSC">
+                <a href="">
                     <img src={img6} alt="X" />
                 </a>
-                <a href="https://t.me/ShaunBSC">
+                <a href="https://t.me/BabyBEBEbsc">
                     <img src={img7} alt="tlegram" />
                 </a>
             </div>
-            <p>COPYRIGHT © 2024 $ShauntheSheep. ALL RIGHTS RESERVED</p>
+            <p>COPYRIGHT © 2024 $Baby BEBE. ALL RIGHTS RESERVED</p>
           </div>
         </div>
     )
