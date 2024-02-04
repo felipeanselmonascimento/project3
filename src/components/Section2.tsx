@@ -1,6 +1,6 @@
 // import section22 from '../assets/darkforest.jpg'
 import styles from './Section2.module.css'
-import dedao from '../assets/Subject (2).png'
+import dedao from '../assets/luffy.png'
 import AOS from 'aos'
 import { useEffect, useState } from 'react'
 import 'aos/dist/aos.css'
@@ -12,7 +12,7 @@ export function Section2() {
 
     const handleCopyClick = () => {
       // Texto que você deseja copiar
-      const textToCopy = '0xE5Fa35e9bCf6D235721554b9F2f3E03f5fd7e42F';
+      const textToCopy = 'Monkey D PEPE';
   
       // Copia o texto para a área de transferência
       navigator.clipboard.writeText(textToCopy)
@@ -45,11 +45,14 @@ export function Section2() {
                 data-aos="fade-right"
                 data-aos-duration="1000"
                 />
-                {isCopied && <p className={styles.text}>CONTRACT COPIED 💸🚀!</p>}
+                {isCopied && <p className={styles.text}>CONTRACT COPIED!</p>}
                 <div className={styles.divsec}>
-                    <h1>Baby BEBE!</h1>
-                    <p>Baby BEBE is the cryptocurrency of the future, driving the financial revolution with cutting-edge technology. Enjoy fast, efficient, and secure transactions. Our community-driven governance, focus on financial inclusion, and advanced smart contracts make Baby BEBE the choice for a more connected world. Discover the power of innovation - acquire Baby BEBE now! 💸🚀🌐</p>
-                    <button onClick={handleCopyClick} role="button">CONTRACT:0xE5Fa35e9bCf6D235721554b9F2f3E03f5fd7e42F
+                    <h1
+                    data-aos="fade-left"
+                    data-aos-duration="1000"
+                    >Monkey D PEPE!</h1>
+                    <p>Monkey D Pepe, the latest sensation in the blockchain realm, has emerged as a vibrant and innovative project set to redefine the NFT landscape. Combining the iconic Pepe meme culture with the revolutionary potential of the Ethereum blockchain, 佩佩 Pepe promises an exhilarating journey for both crypto enthusiasts and meme aficionados alike</p>
+                    <button onClick={handleCopyClick} role="button">CONTRACT:under construction
                     <Copy size={15} /></button>
                 </div>
             </div>

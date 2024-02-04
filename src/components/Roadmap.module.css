@@ -15,12 +15,19 @@
 }
 
 .div h2 {
+    background-color: var(--gray-100);
+    color: black;
+    margin-top: 2rem;
     border-radius: 10px;
     font-size: 60px;
     box-shadow: -5px -5px 10px;
  }
 
  .para {
+    background-color: var(--gray-100);
+    color: black;
+    box-shadow: -5px -5px 10px;
+    border-radius: 10px;
     width: 40rem;
     text-align: center; 
     margin-top: 4rem;
@@ -56,10 +63,11 @@
 
 .phase {
     border-radius: 15px;
+    color: black;
     width: 400px;
     padding: 15px;
     box-shadow: rgb(114, 114, 114) 0px 0px 10px 5px inset;
-    /* background-color: rgb(114, 114, 114); */
+    background-color: var(--gray-100);
 }
 
 .phase h1 {

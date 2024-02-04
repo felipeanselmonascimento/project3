@@ -1,4 +1,4 @@
-import img from '../assets/Subject (2).png'
+import img from '../assets/3 luffy.png'
 import styles from './Roadmap.module.css'
 
 export function Roadmap() {
@@ -7,10 +7,12 @@ export function Roadmap() {
             <img src={img}
                 alt="imagem do roadmap img" />
             <h2>ROADMAP</h2>
-            <p className={styles.para}>Welcome to the exciting journey of Baby BEBE ($lilBEBE)! Our roadmap is a comprehensive guide outlining the strategic vision and key milestones for the development and growth of our cryptocurrency.</p>
-            <p className={styles.para}>Baby BEBE is not just a digital asset; it's a community-driven project with a commitment to innovation, transparency, and long-term sustainability.</p>
+            <p className={styles.para}>Welcome to the exciting journey of Monkey D PEPE ($mPEPE)! Our roadmap is a comprehensive guide outlining the strategic vision and key milestones for the development and growth of our cryptocurrency.</p>
+            <p className={styles.para}>Whether you're a crypto veteran or a curious newcomer, this project promises an exciting fusion of meme culture and blockchain technology, setting the stage for an unforgettable adventure to the moon and beyond.</p>
             <div className={styles.phases}>
-                <div className={styles.filho1}>
+                <div className={styles.filho1}
+                data-aos="fade-right"
+                data-aos-duration="1000">
                     <div className={styles.phase}>
                         <h1>PHASE 1</h1>
                         <p>Initial Marketing</p>
@@ -26,7 +28,9 @@ export function Roadmap() {
                         <p>10,000+ Holders</p>
                     </div>
                 </div>
-                <div className={styles.filho2}>
+                <div className={styles.filho2}
+                data-aos="fade-left"
+                data-aos-duration="1000">
                     <div className={styles.phase}>
                         <h1>PHASE 3</h1>
                         <p>Token Burn</p>

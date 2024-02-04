@@ -10,6 +10,16 @@
     top: 0px;
 }
 
+.divsec h1 {
+  width: 80%;
+  text-align: center;
+  background-color:var(--gray-100);
+  color: black;
+  border-radius: 10px;
+  font-size: 60px;
+  box-shadow: -5px -5px 10px;
+}
+
 /* .section2 img {
     position: sticky;
     top: 0px;
@@ -34,9 +44,10 @@
 
 .text {
     position: absolute;
-    font-size: 10rem;
-    text-align: center;
-    color: #fffb00;
+    bottom: 0px;
+    font-size: 5rem;
+    /* text-align: center; */
+    color: rgb(129, 199, 24);
 }
 
 .divi div {
@@ -49,10 +60,15 @@
 }
 
 .divsec p {
-    margin-top: 5rem;
-    font-size: 20px;
+  margin-top: 5rem;
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+  background-color: var(--gray-100);
+  color: black;
+  border-radius: 10px;
+  box-shadow: -5px -5px 10px;
 }
-
 .divsec button {
     text-align:center;
     margin-top: 3rem;
